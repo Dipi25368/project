@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>java</title>
+        <style>
+            #number{
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 200px;
+            }
+            div{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: brown;
+                height: 300px;
+                width: 400px;
+                flex-direction: column;
+                border-radius: 50px;
+                animation: key 2s infinite;
+            }
+            @keyframes key{
+                0%{background-color: aqua;}
+                30%{background-color: green;}
+                60%{background-color: red;}
+                90%{background-color: blue}
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+        <div>
+        <h1>Count Down</h1>
+        <input type="text" placeholder="Enter Number" id="in">
+        <h3 id="number">Here You Go</h3>
+        <button onclick="show()">Click</button>
+        </div>
+        <script>
+             function show(){ 
+                let num=document.getElementById("in").value
+                document.getElementById("in").value=""
+            
+            function show1(){
+                if(num>=0)
+                {
+                    
+                    let n=document.getElementById("number")
+                    n.innerHTML=num
+                    n.style.backgroundColor="cyan"
+                    n.style.width="60px"
+                    n.style.height="60px"
+                    num--
+                }else{
+                    clearInterval(time)
+                    document.getElementById("number").innerHTML="Time's Up"
+                    document.getElementById("number").style.backgroundColor=""
+                    document.getElementById("number").style.width="150px"
+            
+                }
+            
+            }
+            let time=setInterval(show1,1000)
+           
+            
+            }
+            
+        </script>
+    </body>
+</html>

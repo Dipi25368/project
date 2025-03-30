@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>java</title>
+
+    </head>
+    <body>
+        <center>
+            <form>
+                <input id="in1" type="email" placeholder="Enter Email" required><br><br>
+                <input id="in2" type="password" placeholder="Enter Password" required><br><br>
+                <button onclick="valid()">Submit</button>
+            </form>
+        </center>
+        <script>
+            function valid(){
+            let email=document.getElementById("in1").value
+            let pass=document.getElementById("in2").value
+            if(!(email.includes("@"))){
+                alert("Enter Proper Email")
+                document.getElementById("in1").value=""
+            }
+            if(pass.length<8){
+                alert("Password should be 8 charecters long")
+            }
+            let special=/[@#$%&*?]/
+            if(!(special.test(pass))){
+                alert("Password must contain atleast one special charecter")
+            }
+            }
+        </script>
+    </body>
+</html>
