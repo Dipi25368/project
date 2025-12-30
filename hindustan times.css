@@ -1,0 +1,95 @@
+.a{
+    margin: 40px;
+}
+.news{
+    height: 700px;
+    width: 600px;
+    padding: 60px;
+    margin: 20px 0px 500px 300px;
+    box-shadow: gray;
+    border: solid gray;
+    background-color: white;
+    background-attachment: fixed;
+    position: fixed;
+}
+.icon{
+    height: 100vh;
+    background-attachment:scroll;
+    background-clip:border-box border-box;
+    justify-content: top;
+    align-items: top;
+    margin-top: 70px;
+    position: fixed;
+    display: block;
+list-style-type: none;
+margin-bottom: 0px;
+margin-left: 0px;
+margin-right :0px;
+outline-color: rgb(0, 0, 0);
+outline-style: none;
+outline-width: 0px;
+overflow-wrap: break-word;
+padding-bottom: 0px;
+padding-left: 0px;
+padding-right: 0px;
+padding-top: 0px;
+text-decoration-color: rgb(0, 0, 0);
+text-decoration-line: none;
+text-decoration-style: solid;
+text-decoration-thickness: auto;
+unicode-bidi: isolate;
+width: 964.8px;
+-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+a i{
+    transition: all;
+    margin-bottom: 30px;
+}
+a:hover{
+    font-size: 60px;
+}
+.add{
+    height: 300px;
+    width: 300px;
+    box-shadow: gray;
+    border: solid gray;
+    background-color: white;
+    position: absolute;
+    display: flex;
+    background-attachment:scroll;
+background-clip:border-box border-box;
+background-color: rgb(246, 246, 246);
+background-image: url("https://www.coca-colacompany.com/about-us/history/history-of-coca-cola-advertising-slogans")
+background-origin: padding-box;
+background-position-x: 0px;
+background-position-y: 0px;
+background-repeat: no-repeat;
+background-size: auto;
+color: rgb(0, 177, 205);
+cursor: pointer;
+display: block;
+font-family: Lato, sans-serif;
+list-style-type: none;
+margin-bottom: 0px;
+margin-left: 0px;
+margin-right: 50px;
+margin-top: 300px;
+outline-color: rgb(0, 177, 205);
+outline-style: none;
+outline-width: 0px;
+overflow-wrap: break-word;
+padding-bottom: 0px;
+padding-left: 0px;
+padding-right: 0px;
+padding-top: 0px;
+position: fixed;
+right: 0px;
+text-decoration-color: rgb(0, 177, 205);
+text-decoration-line: none;
+text-decoration-style: solid;
+text-decoration-thickness: auto;
+top: 0px;
+width: calc(50% - 555.5px);
+z-index: 10;
+-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}

@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+    line-height: 1.6;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #021e29;
+    box-shadow: 0px, 2px, 4px, rgb(0 0 0 1);
+}
+header.logo img{
+    width: 250px;
+}
+header.search-bar input{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    padding: 10px;
+    font-size: 20px;
+    box-sizing: 30px;
+    border: 1px solid #ddd;
+}
+nav{
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 4px lightblue;
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+nav ul li{
+    margin: 0px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #4f4f4f;
+    font-weight: bold;
+    font-size: 16px;
+}
+nav ul li a:hover{
+    color: gainsboro;
+}
+.news{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-left: 15rem;
+    width: 50rem;
+    box-shadow: gray;
+    border: solid rgb(130, 118, 118);
+}
+.items{
+    width: 50rem;
+    background-color: white;
+    box-shadow: 0px, 2px, 6px, gray;
+    padding: 20px;
+}
+.items img{
+    margin-left: 5rem;
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: fixed;
+    top: 200px;
+    left: 10px;
+}
+.icon i{
+    font-size: 50px;
+    margin-top: 30px;
+}
+.add{
+    position: absolute;
+    display: flex;
+    left: 80%;
+    top: 30%;
+    right: 2%;
+    
+}
+.add img{
+    width: 300px;
+    transition: all 300ms ease-in;
+}
+.add img:hover{
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    rotate: 360deg;
+}
+.footer{
+    text-align: center;
+    padding: 20px;
+    background-color: #021e29;
+    color: white;
+}
+.footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.footer ul li{
+    margin: 0, 10px;
+}
+.footer ul li a{
+    color: white;
+    text-decoration: none;
+}
+.footer ul li a:hover{
+    color: blue;
+}
